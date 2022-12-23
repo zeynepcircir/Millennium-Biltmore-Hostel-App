@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.CboxGender = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -65,7 +66,6 @@
             this.BtnRoom101 = new System.Windows.Forms.Button();
             this.BtnEmptyRoom = new System.Windows.Forms.Button();
             this.BtnFullRoom = new System.Windows.Forms.Button();
-            this.label10 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -100,6 +100,17 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Customer Information";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Yu Gothic Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.Location = new System.Drawing.Point(515, 456);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(20, 22);
+            this.label10.TabIndex = 43;
+            this.label10.Text = "0";
+            this.label10.Visible = false;
             // 
             // CboxGender
             // 
@@ -150,6 +161,7 @@
             this.BtnSave.TabIndex = 36;
             this.BtnSave.Text = "Save";
             this.BtnSave.UseVisualStyleBackColor = true;
+            this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
             // DtpDateOfEntry
             // 
@@ -475,17 +487,6 @@
             this.BtnFullRoom.Text = "Full";
             this.BtnFullRoom.UseVisualStyleBackColor = false;
             this.BtnFullRoom.Click += new System.EventHandler(this.BtnFullRoom_Click);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Yu Gothic Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(515, 456);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(20, 22);
-            this.label10.TabIndex = 43;
-            this.label10.Text = "0";
-            this.label10.Visible = false;
             // 
             // FrmNewCustomer
             // 

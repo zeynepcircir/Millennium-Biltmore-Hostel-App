@@ -80,6 +80,8 @@
             this.TxtPassword.Name = "TxtPassword";
             this.TxtPassword.Size = new System.Drawing.Size(222, 35);
             this.TxtPassword.TabIndex = 3;
+            this.TxtPassword.UseSystemPasswordChar = true;
+            this.TxtPassword.TextChanged += new System.EventHandler(this.TxtPassword_TextChanged);
             // 
             // BtnLogin
             // 
@@ -91,6 +93,7 @@
             this.BtnLogin.TabIndex = 4;
             this.BtnLogin.Text = "Login";
             this.BtnLogin.UseVisualStyleBackColor = false;
+            this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
             // 
             // label3
             // 

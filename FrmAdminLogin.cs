@@ -36,5 +36,24 @@ namespace Millennium_Biltmore_Hostel_App
         {
 
         }
+
+        private void BtnLogin_Click(object sender, EventArgs e)
+        {
+            if(TxtUserName.Text == "zeynep" && TxtPassword.Text == "1234")
+            {
+                FrmMainForm fr = new FrmMainForm();
+                fr.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("The Username or Password is Incorrect");
+            }
+        }
+
+        private void TxtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
