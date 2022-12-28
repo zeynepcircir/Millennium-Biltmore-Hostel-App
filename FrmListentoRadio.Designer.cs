@@ -43,7 +43,7 @@
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.linkLabel1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(37, 380);
+            this.linkLabel1.Location = new System.Drawing.Point(12, 429);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(117, 31);
             this.linkLabel1.TabIndex = 0;
@@ -58,7 +58,7 @@
             this.linkLabel2.Font = new System.Drawing.Font("Segoe UI", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.linkLabel2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.linkLabel2.LinkColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.linkLabel2.Location = new System.Drawing.Point(253, 380);
+            this.linkLabel2.Location = new System.Drawing.Point(259, 429);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(117, 31);
             this.linkLabel2.TabIndex = 1;
@@ -73,7 +73,7 @@
             this.linkLabel3.Font = new System.Drawing.Font("Segoe UI", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.linkLabel3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.linkLabel3.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel3.Location = new System.Drawing.Point(498, 380);
+            this.linkLabel3.Location = new System.Drawing.Point(500, 429);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(117, 31);
             this.linkLabel3.TabIndex = 2;
@@ -87,7 +87,7 @@
             this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(-8, -4);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(640, 355);
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(645, 328);
             this.axWindowsMediaPlayer1.TabIndex = 3;
             // 
             // FrmListentoRadio
@@ -96,7 +96,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(221)))), ((int)(((byte)(240)))));
-            this.ClientSize = new System.Drawing.Size(627, 453);
+            this.ClientSize = new System.Drawing.Size(639, 504);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.linkLabel2);

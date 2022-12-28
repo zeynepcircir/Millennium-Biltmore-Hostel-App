@@ -73,10 +73,7 @@ namespace Millennium_Biltmore_Hostel_App
             data2();
         }
 
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void button2_Click(object sender, EventArgs e)
         {

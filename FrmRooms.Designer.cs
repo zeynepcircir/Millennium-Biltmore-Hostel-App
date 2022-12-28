@@ -107,7 +107,6 @@
             this.BtnRoom201.TabIndex = 30;
             this.BtnRoom201.Text = "201";
             this.BtnRoom201.UseVisualStyleBackColor = false;
-            this.BtnRoom201.Click += new System.EventHandler(this.BtnRoom201_Click);
             // 
             // BtnRoom106
             // 
@@ -174,7 +173,6 @@
             this.BtnRoom101.TabIndex = 24;
             this.BtnRoom101.Text = "101";
             this.BtnRoom101.UseVisualStyleBackColor = false;
-            this.BtnRoom101.Click += new System.EventHandler(this.BtnRoom101_Click);
             // 
             // FrmRooms
             // 

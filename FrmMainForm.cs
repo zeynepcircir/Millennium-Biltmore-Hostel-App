@@ -53,15 +53,7 @@ namespace Millennium_Biltmore_Hostel_App
             timer1.Start();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+   
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -130,12 +122,15 @@ namespace Millennium_Biltmore_Hostel_App
 
         private void button18_Click(object sender, EventArgs e)
         {
-            
+            FrmMessages fr = new FrmMessages();
+            fr.Show();
         }
 
         private void button15_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+       
     }
 }

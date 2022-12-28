@@ -115,49 +115,6 @@ namespace Millennium_Biltmore_Hostel_App
             connection.Close();
         }
 
-        private void LblTotalSafe_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LblStaffSalary_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LblPAFood_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LblInvoicesElectric_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LblPADrink_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LblInvoicesWater_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LblPASnack_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LblInvoicesInternet_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LblResult_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

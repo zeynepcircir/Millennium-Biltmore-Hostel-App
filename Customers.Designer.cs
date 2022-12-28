@@ -84,13 +84,12 @@
             this.columnHeader10,
             this.columnHeader11});
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(-4, 308);
+            this.listView1.Location = new System.Drawing.Point(0, 294);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1166, 292);
+            this.listView1.Size = new System.Drawing.Size(1164, 212);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
             // 
             // columnHeader1
@@ -268,7 +267,6 @@
             this.TxtRoomNumber.Name = "TxtRoomNumber";
             this.TxtRoomNumber.Size = new System.Drawing.Size(299, 36);
             this.TxtRoomNumber.TabIndex = 54;
-            this.TxtRoomNumber.TextChanged += new System.EventHandler(this.TxtRoomNumber_TextChanged);
             // 
             // TxtIdNum
             // 
@@ -326,7 +324,6 @@
             this.label7.Size = new System.Drawing.Size(139, 22);
             this.label7.TabIndex = 48;
             this.label7.Text = "Date of Entry :";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
             // 
@@ -397,7 +394,6 @@
             this.label10.Size = new System.Drawing.Size(72, 22);
             this.label10.TabIndex = 63;
             this.label10.Text = "Name :";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // textBox1
             // 
@@ -458,7 +454,6 @@
             this.MinimizeBox = false;
             this.Name = "FrmCustomers";
             this.Text = "Customer Information";
-            this.Load += new System.EventHandler(this.FrmCustomers_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

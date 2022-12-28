@@ -466,7 +466,7 @@
             // 
             // BtnEmptyRoom
             // 
-            this.BtnEmptyRoom.BackColor = System.Drawing.Color.Gray;
+            this.BtnEmptyRoom.BackColor = System.Drawing.Color.White;
             this.BtnEmptyRoom.Font = new System.Drawing.Font("Yu Gothic Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnEmptyRoom.Location = new System.Drawing.Point(1014, 503);
             this.BtnEmptyRoom.Name = "BtnEmptyRoom";

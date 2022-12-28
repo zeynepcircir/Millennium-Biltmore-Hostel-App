@@ -78,7 +78,6 @@
             this.LblTotalSafe.Size = new System.Drawing.Size(34, 26);
             this.LblTotalSafe.TabIndex = 2;
             this.LblTotalSafe.Text = "00";
-            this.LblTotalSafe.Click += new System.EventHandler(this.LblTotalSafe_Click);
             // 
             // LblStaffSalary
             // 
@@ -90,7 +89,6 @@
             this.LblStaffSalary.Size = new System.Drawing.Size(34, 26);
             this.LblStaffSalary.TabIndex = 3;
             this.LblStaffSalary.Text = "00";
-            this.LblStaffSalary.Click += new System.EventHandler(this.LblStaffSalary_Click);
             // 
             // label5
             // 
@@ -112,7 +110,6 @@
             this.LblPAFood.Size = new System.Drawing.Size(34, 26);
             this.LblPAFood.TabIndex = 5;
             this.LblPAFood.Text = "00";
-            this.LblPAFood.Click += new System.EventHandler(this.LblPAFood_Click);
             // 
             // label7
             // 
@@ -134,7 +131,6 @@
             this.LblInvoicesElectric.Size = new System.Drawing.Size(34, 26);
             this.LblInvoicesElectric.TabIndex = 7;
             this.LblInvoicesElectric.Text = "00";
-            this.LblInvoicesElectric.Click += new System.EventHandler(this.LblInvoicesElectric_Click);
             // 
             // label9
             // 
@@ -185,7 +181,6 @@
             this.LblResult.Size = new System.Drawing.Size(34, 26);
             this.LblResult.TabIndex = 12;
             this.LblResult.Text = "00";
-            this.LblResult.Click += new System.EventHandler(this.LblResult_Click);
             // 
             // label12
             // 
@@ -209,7 +204,6 @@
             this.LblPASnack.Size = new System.Drawing.Size(34, 26);
             this.LblPASnack.TabIndex = 14;
             this.LblPASnack.Text = "00";
-            this.LblPASnack.Click += new System.EventHandler(this.LblPASnack_Click);
             // 
             // LblPADrink
             // 
@@ -221,7 +215,6 @@
             this.LblPADrink.Size = new System.Drawing.Size(34, 26);
             this.LblPADrink.TabIndex = 15;
             this.LblPADrink.Text = "00";
-            this.LblPADrink.Click += new System.EventHandler(this.LblPADrink_Click);
             // 
             // LblInvoicesInternet
             // 
@@ -233,7 +226,6 @@
             this.LblInvoicesInternet.Size = new System.Drawing.Size(34, 26);
             this.LblInvoicesInternet.TabIndex = 16;
             this.LblInvoicesInternet.Text = "00";
-            this.LblInvoicesInternet.Click += new System.EventHandler(this.LblInvoicesInternet_Click);
             // 
             // LblInvoicesWater
             // 
@@ -245,7 +237,6 @@
             this.LblInvoicesWater.Size = new System.Drawing.Size(34, 26);
             this.LblInvoicesWater.TabIndex = 17;
             this.LblInvoicesWater.Text = "00";
-            this.LblInvoicesWater.Click += new System.EventHandler(this.LblInvoicesWater_Click);
             // 
             // FrmIncomeExpenditure
             // 

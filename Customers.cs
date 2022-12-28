@@ -52,31 +52,7 @@ namespace Millennium_Biltmore_Hostel_App
             showdata();
         }
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrmCustomers_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void TxtRoomNumber_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        
         int id= 0;
         private void listView1_DoubleClick(object sender, EventArgs e)
         {

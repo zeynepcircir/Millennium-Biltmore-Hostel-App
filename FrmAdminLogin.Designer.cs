@@ -48,7 +48,6 @@
             this.label1.Size = new System.Drawing.Size(202, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "User Name :";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -61,7 +60,6 @@
             this.label2.Size = new System.Drawing.Size(179, 39);
             this.label2.TabIndex = 1;
             this.label2.Text = "Password :";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // TxtUserName
             // 
@@ -81,7 +79,6 @@
             this.TxtPassword.Size = new System.Drawing.Size(222, 35);
             this.TxtPassword.TabIndex = 3;
             this.TxtPassword.UseSystemPasswordChar = true;
-            this.TxtPassword.TextChanged += new System.EventHandler(this.TxtPassword_TextChanged);
             // 
             // BtnLogin
             // 
@@ -126,7 +123,6 @@
             this.MinimizeBox = false;
             this.Name = "FrmAdminLogin";
             this.Text = "Admin Login";
-            this.Load += new System.EventHandler(this.FrmAdminLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

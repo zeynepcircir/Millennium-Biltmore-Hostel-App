@@ -195,14 +195,6 @@ namespace Millennium_Biltmore_Hostel_App
             }
         }
 
-        private void BtnRoom101_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BtnRoom201_Click(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

@@ -20,25 +20,7 @@ namespace Millennium_Biltmore_Hostel_App
         }
 
         SqlConnection connection = new SqlConnection("Data Source=LAPTOP-OKFPVGR5\\SQLEXPRESS;Initial Catalog=MillenniumBilmoreHostel;Integrated Security=True");
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void FrmAdminLogin_Load(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
@@ -62,9 +44,6 @@ namespace Millennium_Biltmore_Hostel_App
 
         }
 
-        private void TxtPassword_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

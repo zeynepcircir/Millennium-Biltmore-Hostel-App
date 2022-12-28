@@ -100,7 +100,6 @@
             this.Invoices.TabIndex = 16;
             this.Invoices.TabStop = false;
             this.Invoices.Text = "Invoices";
-            this.Invoices.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // button2
             // 
