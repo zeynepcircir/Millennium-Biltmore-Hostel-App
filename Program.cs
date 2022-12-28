@@ -16,7 +16,7 @@ namespace Millennium_Biltmore_Hostel_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMainForm());
+            Application.Run(new FrmAdminLogin());
         }
     }
 }

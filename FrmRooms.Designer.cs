@@ -180,6 +180,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(253)))), ((int)(((byte)(198)))));
             this.ClientSize = new System.Drawing.Size(832, 585);
             this.Controls.Add(this.BtnRoom206);
@@ -194,6 +195,8 @@
             this.Controls.Add(this.BtnRoom103);
             this.Controls.Add(this.BtnRoom102);
             this.Controls.Add(this.BtnRoom101);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmRooms";
             this.Text = "Rooms";
             this.Load += new System.EventHandler(this.FrmRooms_Load);
